@@ -1,5 +1,5 @@
 const config = require("../config")
-const TOKEN_KEY = config.TOKEN_KEY
+const TOKEN_KEY = config.JWT_TOKEN_KEY
 
 const validToken = async (tokenToCheck) => {
   // Does token match secret
