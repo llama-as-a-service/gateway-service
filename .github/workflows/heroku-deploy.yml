@@ -25,4 +25,4 @@ jobs:
         env:
           NODE_ENV: production
           JWT_TOKEN_KEY: ${{ secrets.JWT_TOKEN_KEY }}
-          API_SERVICE_URL: ${{ secrets.API_SERVICE_URL }}
+          API_IMAGES_URL: ${{ secrets.API_IMAGES_URL }}
