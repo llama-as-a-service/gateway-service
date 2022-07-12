@@ -29,7 +29,7 @@ $ docker pull ghcr.io/llama-as-a-service/gateway-service:0.1.0
 
 ```js
 module.exports = {
-  API_SERVICE_URL: process.env.API_SERVICE_URL || 'http://localhost:3000'
+  API_IMAGES_URL: process.env.API_IMAGES_URL || 'http://localhost:3000'
   ...
 }
 ```
@@ -47,7 +47,7 @@ module.exports = {
         max: 5
     },
     proxy: {
-        target: config.API_SERVICE_URL, // URL to microservice
+        target: config.API_IMAGES_URL, // URL to microservice
         changeOrigin: true,
     }
 }

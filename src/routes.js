@@ -25,7 +25,7 @@ const ROUTES = [
       max: 5
     },
     proxy: {
-      target: config.API_SERVICE_URL,
+      target: config.API_IMAGES_URL,
       changeOrigin: true,
     }
   },
@@ -35,7 +35,7 @@ const ROUTES = [
     auth: true,
     creditCheck: true,
     proxy: {
-      target: config.API_SERVICE_URL,
+      target: config.API_IMAGES_URL,
       changeOrigin: true,
     }
   }

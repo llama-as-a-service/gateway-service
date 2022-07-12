@@ -9,4 +9,4 @@ services:
     environment:
       PORT: $PORT
       RABBIT_URI: $RABBIT_URI
-      API_SERVICE_URL: $API_SERVICE_URL
+      API_IMAGES_URL: $API_IMAGES_URL
